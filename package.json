@@ -1,0 +1,28 @@
+{
+  "name": "time-tracking-dashboard",
+  "version": "1.0.0",
+  "description": "![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css  --watch ",
+    "buildjs": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M0stafa123/time-tracking-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M0stafa123/time-tracking-dashboard/issues"
+  },
+  "homepage": "https://github.com/M0stafa123/time-tracking-dashboard#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "@types/node": "^20.9.1",
+    "typescript": "^5.2.2"
+  }
+}
